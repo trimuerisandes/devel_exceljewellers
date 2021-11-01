@@ -1,0 +1,143 @@
+[05-01-2020 08:55:36] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/oauth2/token
+[05-01-2020 08:55:37] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[05-01-2020 08:55:37] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[05-01-2020 08:55:37] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[05-01-2020 09:00:26] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[05-01-2020 09:00:27] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[05-01-2020 09:04:32] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[05-01-2020 09:04:32] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[06-01-2020 08:47:15] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/oauth2/token
+[06-01-2020 08:47:15] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[06-01-2020 08:47:15] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[06-01-2020 08:47:16] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[06-01-2020 08:47:16] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","message":"Invalid request - see details","debug_id":"6d85353108ec0","information_link":"https://developer.paypal.com/docs/api/payments/#errors","details":[{"field":"transactions","location":"body","issue":"Item currency codes should be same as the transaction currency code in all buckets"}]}
+[06-01-2020 08:47:31] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[06-01-2020 08:47:31] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[06-01-2020 08:48:52] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[06-01-2020 08:48:52] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[06-01-2020 08:48:52] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","message":"Invalid request - see details","debug_id":"cfb76ef7df3d7","information_link":"https://developer.paypal.com/docs/api/payments/#errors","details":[{"field":"transactions","location":"body","issue":"Item currency codes should be same as the transaction currency code in all buckets"}]}
+[06-01-2020 08:51:54] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[06-01-2020 08:51:55] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[06-01-2020 08:52:10] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[06-01-2020 08:52:10] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[06-01-2020 08:52:10] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","message":"Invalid request - see details","debug_id":"00b6ae224da3e","information_link":"https://developer.paypal.com/docs/api/payments/#errors","details":[{"field":"transactions","location":"body","issue":"Item currency codes should be same as the transaction currency code in all buckets"}]}
+[06-01-2020 08:54:09] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[06-01-2020 08:54:09] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[06-01-2020 08:54:09] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","message":"Invalid request - see details","debug_id":"260d24c5221b0","information_link":"https://developer.paypal.com/docs/api/payments/#errors","details":[{"field":"transactions","location":"body","issue":"Item currency codes should be same as the transaction currency code in all buckets"}]}
+[06-01-2020 08:56:50] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[06-01-2020 08:56:50] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[06-01-2020 08:56:50] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","message":"Invalid request - see details","debug_id":"628bdc356cec5","information_link":"https://developer.paypal.com/docs/api/payments/#errors","details":[{"field":"transactions","location":"body","issue":"Item currency codes should be same as the transaction currency code in all buckets"}]}
+[06-01-2020 08:57:18] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[06-01-2020 08:57:18] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[06-01-2020 08:57:18] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","message":"Invalid request - see details","debug_id":"87c14fb8a4632","information_link":"https://developer.paypal.com/docs/api/payments/#errors","details":[{"field":"transactions","location":"body","issue":"Item currency codes should be same as the transaction currency code in all buckets"}]}
+[08-01-2020 05:38:09] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/oauth2/token
+[08-01-2020 05:38:10] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[08-01-2020 05:38:10] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[08-01-2020 05:38:10] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-01-2020 22:46:43] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/oauth2/token
+[17-01-2020 22:46:43] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-01-2020 22:46:43] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[17-01-2020 22:46:44] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-01-2020 22:50:50] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[17-01-2020 22:50:50] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-01-2020 22:55:46] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[17-01-2020 22:55:46] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-01-2020 22:56:15] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[17-01-2020 22:56:16] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-01-2020 22:56:37] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[17-01-2020 22:56:37] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[21-01-2020 00:24:11] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/oauth2/token
+[21-01-2020 00:24:12] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[21-01-2020 00:24:12] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[21-01-2020 00:24:12] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[23-01-2020 10:40:12] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/oauth2/token
+[23-01-2020 10:40:12] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[23-01-2020 10:40:12] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:40:12] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[23-01-2020 10:43:14] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:43:14] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 10:43:14] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"e0461d8a28528"}
+[23-01-2020 10:43:28] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:43:29] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[23-01-2020 10:49:07] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:49:07] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 10:49:07] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].amount","issue":"Transaction amount details (subtotal, tax, shipping) must add up to specified amount total"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"787987d7e69eb"}
+[23-01-2020 10:49:36] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:49:37] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[23-01-2020 10:49:59] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:50:00] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 10:50:00] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"1140d3d494865"}
+[23-01-2020 10:50:09] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:50:10] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[23-01-2020 10:50:23] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:50:23] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 10:50:23] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"55da5f35db8b5"}
+[23-01-2020 10:51:15] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:51:16] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[23-01-2020 10:51:26] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:51:27] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 10:51:27] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"1621c559bf758"}
+[23-01-2020 10:51:42] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:51:42] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 10:51:42] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"MALFORMED_REQUEST","message":"Incoming JSON request does not map to API request","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#MALFORMED_REQUEST","debug_id":"39f038cad1a53"}
+[23-01-2020 10:51:50] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:51:50] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 10:51:50] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"MALFORMED_REQUEST","message":"Incoming JSON request does not map to API request","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#MALFORMED_REQUEST","debug_id":"9e4704b920fe4"}
+[23-01-2020 10:52:37] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:52:38] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 10:52:38] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"880e2f041c2fb"}
+[23-01-2020 10:52:44] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:52:45] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[23-01-2020 10:53:14] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:53:14] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 10:53:14] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"1ca4aef1454da"}
+[23-01-2020 10:54:22] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:54:22] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 10:54:22] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].amount","issue":"Transaction amount details (subtotal, tax, shipping) must add up to specified amount total"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"7fef2af83f7bf"}
+[23-01-2020 10:55:31] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 10:55:32] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[23-01-2020 21:00:07] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/oauth2/token
+[23-01-2020 21:00:08] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[23-01-2020 21:00:08] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 21:00:08] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 21:00:08] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"d22df03d5ef5d"}
+[23-01-2020 21:02:05] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 21:02:06] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[23-01-2020 21:04:09] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 21:04:10] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[23-01-2020 21:07:37] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 21:07:38] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 21:07:38] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"cb86f10d3cd74"}
+[23-01-2020 21:12:25] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 21:12:26] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 21:12:26] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"9686ba74050ba"}
+[23-01-2020 21:12:32] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 21:12:33] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 21:12:33] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"8ee584b04b55b"}
+[23-01-2020 21:12:48] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 21:12:48] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 21:12:48] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"MALFORMED_REQUEST","message":"Incoming JSON request does not map to API request","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#MALFORMED_REQUEST","debug_id":"4543cd0826f7d"}
+[23-01-2020 21:22:24] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 21:22:25] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 21:22:25] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"54be1fd529e41"}
+[23-01-2020 21:22:30] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[23-01-2020 21:22:30] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[23-01-2020 21:22:30] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"b4b2191ea61cc"}
+[24-01-2020 02:52:58] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[24-01-2020 02:52:59] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-01-2020 02:52:59] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"b6a1bc9b9a20b"}
+[27-01-2020 09:53:32] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/oauth2/token
+[27-01-2020 09:53:32] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[27-01-2020 09:53:32] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[27-01-2020 09:53:33] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[27-01-2020 09:53:33] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"78412c4c9285a"}
+[27-01-2020 09:59:34] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[27-01-2020 09:59:34] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[30-01-2020 22:09:29] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/oauth2/token
+[30-01-2020 22:09:30] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[30-01-2020 22:09:30] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[30-01-2020 22:09:31] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[30-01-2020 22:17:07] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[30-01-2020 22:17:08] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[30-01-2020 22:23:50] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment
+[30-01-2020 22:23:50] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201

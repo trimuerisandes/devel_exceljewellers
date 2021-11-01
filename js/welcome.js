@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".main-carousel").flickity({cellAlign:"center",contain:!0,pageDots:!1,wrapAround:!0,imagesLoaded:!0,asNavFor:".carousel-main"}),$(".banner-text").fadeIn(500)});

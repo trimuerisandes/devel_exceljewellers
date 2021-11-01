@@ -1,0 +1,1 @@
+$(document).ready(function(){var t=0,n=$("img").not(".other-img").length;function o(){++t==n&&$(".loading").fadeOut()}$("img").each(function(t,n){$("<img>").on("load",o).attr("src",$(n).attr("src"))})});
